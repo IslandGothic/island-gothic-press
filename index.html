@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Island Gothic Press</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+background:black;
+color:white;
+font-family:'Cormorant Garamond', serif;
+line-height:1.6;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,0.8);
+backdrop-filter:blur(6px);
+padding:15px 0;
+text-align:center;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 24px;
+letter-spacing:2px;
+font-size:13px;
+}
+
+nav a:hover{
+opacity:0.7;
+}
+
+header{
+background:
+linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("images/hero.jpg") center/cover no-repeat;
+height:80vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+margin-top:60px;
+}
+
+header h1{
+font-size:4.8rem;
+letter-spacing:6px;
+}
+
+section{
+max-width:1100px;
+margin:auto;
+padding:100px 20px;
+border-bottom:1px solid #222;
+}
+
+h2{
+letter-spacing:2px;
+margin-bottom:30px;
+}
+
+.section-layout{
+display:grid;
+grid-template-columns:260px 1fr;
+gap:40px;
+align-items:start;
+}
+
+.section-layout img{
+width:260px;
+height:auto;
+}
+
+.section-text{
+max-width:700px;
+}
+
+.publication{
+display:flex;
+gap:30px;
+margin-bottom:60px;
+}
+
+.publication img{
+width:180px;
+height:auto;
+}
+
+.publication-text{
+max-width:600px;
+}
+
+.shop-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:40px;
+text-align:center;
+}
+
+.shop-item{
+text-decoration:none;
+color:white;
+display:block;
+transition:0.2s;
+}
+
+.shop-item img{
+width:200px;
+height:auto;
+}
+
+.shop-item:hover{
+transform:scale(1.05);
+}
+
+footer{
+text-align:center;
+padding:40px;
+font-size:0.9rem;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<nav>
+
+<a href="#news">NEWS</a>
+<a href="#masthead">MASTHEAD</a>
+<a href="#publications">PUBLICATIONS</a>
+<a href="#shop">SHOP</a>
+<a href="#contact">SUBMISSIONS / CONTACT</a>
+
+</nav>
+
+
+<header>
+
+<h1>ISLAND GOTHIC PRESS</h1>
+
+</header>
+
+
+<section id="about">
+
+<h2>About</h2>
+
+<div class="section-layout">
+
+<img src="images/about.jpg">
+
+<div class="section-text">
+
+<p>Welcome to Island Gothic Press.</p>
+
+<p>Island Gothic is an independent printing press publishing limited-run zines, short fiction, and novels rooted in adventure, psychological fracture, isolation, and modern desolation.</p>
+
+<p>Founded by Joss Berrett, the press serves as both an imprint and a creative laboratory exploring pulp adventure, the supernatural and island decay, inspired by years of living and travelling throughout Southeast Asia.</p>
+
+<p><em>We’ve been expecting you.</em></p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="news">
+
+<h2>News</h2>
+
+<div class="section-layout">
+
+<img src="images/news.jpg">
+
+<div class="section-text">
+
+<p>Island Gothic Press launches with a growing catalogue of zines and small press publications. Future releases and collaborations will be announced here.</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="masthead">
+
+<h2>Masthead</h2>
+
+<div class="section-layout">
+
+<img src="images/joss.jpg">
+
+<div class="section-text">
+
+<p>EDITOR: Joss Berret is an Australian author based in Hanoi, Vietnam. He writes absurd and surreal stories based on his adventures in Australia and around the world.</p>
+
+<p>You can read about his adventures on Substack or by purchasing one of his novels.</p>
+
+<p>Substack: <a href="https://substack.com/@jossberrett" target="_blank">substack.com/@jossberrett</a></p>
+
+<p>Instagram: @wolves_of_hanoi</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="publications">
+
+<h2>Publications</h2>
+
+<div class="publication">
+
+<img src="images/mexico.jpg">
+
+<div class="publication-text">
+
+<h3>Finding Mexico</h3>
+
+<p><em>Short Fiction</em></p>
+
+<p>A pulp travel narrative exploring dislocation, paranoia and tropical heat.</p>
+
+<p><a href="#shop">Purchase →</a></p>
+
+</div>
+
+</div>
+
+
+<div class="publication">
+
+<img src="images/phong.jpg">
+
+<div class="publication-text">
+
+<h3>Phong’s Takeaway</h3>
+
+<p><em>Short Fiction</em></p>
+
+<p>A surreal story set between street food stalls and shifting realities.</p>
+
+<p><a href="#shop">Purchase →</a></p>
+
+</div>
+
+</div>
+
+
+<div class="publication">
+
+<img src="images/zine.jpg">
+
+<div class="publication-text">
+
+<h3>Island Gothic Zine</h3>
+
+<p><em>Volume 1 Issue 0</em></p>
+
+<p>The first issue of Island Gothic’s experimental fiction and zine series.</p>
+
+<p><a href="#shop">Purchase →</a></p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="shop">
+
+<h2>Shop</h2>
+
+<div class="shop-grid">
+
+
+<a href="mailto:jossberrettauthor@gmail.com?subject=Order: Finding Mexico" class="shop-item">
+
+<img src="images/mexico.jpg">
+
+<p>Finding Mexico<br>$6 USD + Postage</p>
+
+</a>
+
+
+<a href="mailto:jossberrettauthor@gmail.com?subject=Order: Phong's Takeaway" class="shop-item">
+
+<img src="images/phong.jpg">
+
+<p>Phong’s Takeaway<br>$6 USD + Postage</p>
+
+</a>
+
+
+<a href="mailto:jossberrettauthor@gmail.com?subject=Order: Island Gothic Zine" class="shop-item">
+
+<img src="images/zine.jpg">
+
+<p>Island Gothic Zine<br>$4 USD + Postage</p>
+
+</a>
+
+
+<a href="mailto:jossberrettauthor@gmail.com?subject=Order: Island Gothic T-Shirt" class="shop-item">
+
+<img src="images/shirt.jpg">
+
+<p>Island Gothic T-Shirt<br>$20 USD</p>
+
+</a>
+
+
+</div>
+
+</section>
+
+<section id="newsletter">
+
+<h2>Mailing List</h2>
+
+<p>
+Join the Island Gothic Press mailing list for announcements, new publications,
+and future collaborations.
+</p>
+
+<p>
+<a href="https://island-gothic-press.kit.com/290f1a06c5" target="_blank">Subscribe →</a>
+</p>
+
+</section>
+
+
+<section id="contact">
+
+
+<h2>Submissions / Contact</h2>
+
+<div class="section-layout">
+
+<img src="images/contact.jpg">
+
+<div class="section-text">
+
+<p>We are not currently accepting submissions.</p>
+
+<p>If you have an idea that might suit Island Gothic Press or a proposal for collaboration, please reach out.</p>
+
+<p>The worst we could say is: <em>no thank you.</em></p>
+
+<p>Email: jossberrettauthor@gmail.com</p>
+
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© Island Gothic Press</p>
+
+</footer>
+
+</body>
+
+</html>
